@@ -7690,7 +7690,7 @@
 		)
 	)
 	(global_label "C_VPP"
-		(shape input)
+		(shape bidirectional)
 		(at 226.695 79.375 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7701,7 +7701,7 @@
 		)
 		(uuid "08015e51-0602-48ca-a352-93711cf1e79a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4978 79.375 0)
+			(at 217.5453 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,7 +8240,7 @@
 		)
 	)
 	(global_label "C_VCC"
-		(shape input)
+		(shape bidirectional)
 		(at 226.695 66.675 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8251,7 +8251,7 @@
 		)
 		(uuid "3f7c0b57-5289-42db-80bd-a3970410f77b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4978 66.675 0)
+			(at 217.5453 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,7 +8306,7 @@
 		)
 	)
 	(global_label "C_RST"
-		(shape input)
+		(shape bidirectional)
 		(at 226.695 69.215 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8317,7 +8317,7 @@
 		)
 		(uuid "4af62a45-0232-4e08-92ef-70b16b995548")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.6793 69.215 0)
+			(at 217.7268 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +8680,7 @@
 		)
 	)
 	(global_label "C_VCC"
-		(shape input)
+		(shape bidirectional)
 		(at 226.695 43.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8691,7 +8691,7 @@
 		)
 		(uuid "9c20f89b-24d8-4dfc-90ff-fa311b7ee421")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4978 43.18 0)
+			(at 217.5453 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +8702,7 @@
 		)
 	)
 	(global_label "C_CLK"
-		(shape input)
+		(shape bidirectional)
 		(at 226.695 71.755 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8713,7 +8713,7 @@
 		)
 		(uuid "9c861cfb-ab75-490f-b4ba-b4ec517c293c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.5583 71.755 0)
+			(at 217.6058 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +8834,7 @@
 		)
 	)
 	(global_label "C_RST"
-		(shape input)
+		(shape bidirectional)
 		(at 226.695 45.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8845,7 +8845,7 @@
 		)
 		(uuid "ac7fc212-f279-4b20-b08a-c870de535aaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.6793 45.72 0)
+			(at 217.7268 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9076,7 @@
 		)
 	)
 	(global_label "C_VPP"
-		(shape input)
+		(shape bidirectional)
 		(at 226.695 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9087,7 +9087,7 @@
 		)
 		(uuid "dc357f17-0a97-4533-aaf9-338c6ff8dcdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4978 55.88 0)
+			(at 217.5453 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13927,13 +13927,13 @@
 			(uuid "1ab7de47-7305-43a5-81d8-22fdc023bff6")
 		)
 		(pin "3"
-			(uuid "d5db21a3-8636-45d8-b3f3-235babe43396")
+			(uuid "d5db21a3-8636-45d8-b3f3-235babe43397")
 		)
 		(pin "4"
-			(uuid "8ac0357c-da55-4157-a432-75af337be899")
+			(uuid "8ac0357c-da55-4157-a432-75af337be89a")
 		)
 		(pin "5"
-			(uuid "70114053-f1e2-44db-a987-cc4c1896994c")
+			(uuid "70114053-f1e2-44db-a987-cc4c1896994d")
 		)
 		(instances
 			(project "ISO7816"
@@ -15060,13 +15060,13 @@
 			(uuid "21c9a7c6-3927-430c-88ea-b1575d8825f3")
 		)
 		(pin "3"
-			(uuid "d5db21a3-8636-45d8-b3f3-235babe43397")
+			(uuid "d5db21a3-8636-45d8-b3f3-235babe43398")
 		)
 		(pin "4"
-			(uuid "8ac0357c-da55-4157-a432-75af337be89a")
+			(uuid "8ac0357c-da55-4157-a432-75af337be89b")
 		)
 		(pin "5"
-			(uuid "70114053-f1e2-44db-a987-cc4c1896994d")
+			(uuid "70114053-f1e2-44db-a987-cc4c1896994e")
 		)
 		(instances
 			(project "ISO7816"
@@ -15170,13 +15170,13 @@
 			(uuid "ee6897ec-39d4-4f22-976d-2efc1e879544")
 		)
 		(pin "3"
-			(uuid "d5db21a3-8636-45d8-b3f3-235babe43398")
+			(uuid "d5db21a3-8636-45d8-b3f3-235babe43399")
 		)
 		(pin "4"
-			(uuid "8ac0357c-da55-4157-a432-75af337be89b")
+			(uuid "8ac0357c-da55-4157-a432-75af337be89c")
 		)
 		(pin "5"
-			(uuid "70114053-f1e2-44db-a987-cc4c1896994e")
+			(uuid "70114053-f1e2-44db-a987-cc4c1896994f")
 		)
 		(instances
 			(project "ISO7816"
