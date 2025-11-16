@@ -14155,6 +14155,17 @@
 		(layer "B.Mask")
 		(uuid "d7c94888-a0d3-47a0-82b4-129d53ae6fbb")
 	)
+	(gr_rect
+		(start 179 100)
+		(end 187 108)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "82edbf28-e645-43d1-81b1-c3e686e87917")
+	)
 	(gr_arc
 		(start 146.8 117.99)
 		(mid 144.8 119.99)
