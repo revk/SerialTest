@@ -3684,6 +3684,298 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RevK:TC2030-Serial-NL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TC2030-Serial-NL"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RevK:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at -0.254 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TC2030-USB-NL"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC2030-Serial-NL_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.175 1.27)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.175 0)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.175 -1.27)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.905 1.27)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.905 0)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.905 -1.27)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TC2030-Serial-NL_1_1"
+				(circle
+					(center -3.81 -2.54)
+					(radius 0.381)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -2.54)
+					(radius 0.381)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 6.35 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "CTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "RTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RevK:TC2030-USB-NL"
 			(pin_names
 				(offset 1.016)
@@ -6068,6 +6360,12 @@
 		(uuid "998a6975-0515-4100-88c5-666fae0cc3e7")
 	)
 	(junction
+		(at 81.28 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a52736b-dd1f-4479-9a98-b401d01e66db")
+	)
+	(junction
 		(at 90.17 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6270,10 +6568,6 @@
 		(uuid "7de61f98-b88d-4051-85b4-5dbdfe294bd8")
 	)
 	(no_connect
-		(at 79.375 48.26)
-		(uuid "86fa3e22-516d-4cd4-8b43-52fd3b3b0322")
-	)
-	(no_connect
 		(at 48.895 63.5)
 		(uuid "8fed0145-9e99-4307-b53e-5eb1b34618f8")
 	)
@@ -6290,12 +6584,12 @@
 		(uuid "a404b299-638c-419d-8ad2-46a50412fb34")
 	)
 	(no_connect
-		(at 79.375 50.8)
-		(uuid "ac6d5c91-8d45-4ba6-b42c-fae3ba69ac9d")
-	)
-	(no_connect
 		(at 180.975 97.79)
 		(uuid "bbc41736-3239-4c26-871d-02157b8cac86")
+	)
+	(no_connect
+		(at 76.2 26.67)
+		(uuid "bf6187c5-f79c-44aa-8000-c38a087d7388")
 	)
 	(no_connect
 		(at 48.895 99.06)
@@ -7093,7 +7387,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 102.235) (xy 94.615 102.235)
+			(xy 79.375 102.235) (xy 81.28 102.235)
 		)
 		(stroke
 			(width 0)
@@ -7270,6 +7564,16 @@
 			(type default)
 		)
 		(uuid "b5ea7c3a-a354-4be2-b23a-74b6e8e28fcb")
+	)
+	(wire
+		(pts
+			(xy 81.28 102.235) (xy 81.28 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6747e27-616c-4fe2-b832-cbeb4d111688")
 	)
 	(wire
 		(pts
@@ -7573,6 +7877,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 102.235) (xy 94.615 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd998479-666a-4f73-a3aa-c882bfbadc8c")
+	)
+	(wire
+		(pts
 			(xy 147.955 186.69) (xy 147.955 190.5)
 		)
 		(stroke
@@ -7795,6 +8109,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape output)
+		(at 76.2 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14c3a2c1-df27-48d4-805d-4390150ef112")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.0105 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8125,6 +8461,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX"
+		(shape input)
+		(at 76.2 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "374268fa-23fe-488f-b0d0-cf960eb6dab2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.7081 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8525,6 +8883,28 @@
 			)
 		)
 	)
+	(global_label "RX"
+		(shape input)
+		(at 79.375 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7474a8b3-f114-4ed7-93f6-d00ab1606189")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.1855 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape bidirectional)
 		(at 55.88 143.51 0)
@@ -8560,6 +8940,28 @@
 		(uuid "78caf646-d842-4646-9568-23397762a36e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.2461 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RTS"
+		(shape output)
+		(at 76.2 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ed5e455-0d81-46a8-9e61-94539befd11c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.9781 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,6 +9587,28 @@
 			)
 		)
 	)
+	(global_label "TX"
+		(shape output)
+		(at 79.375 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6ffa7bf-2f41-47ac-a6bd-a3000d264cca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8831 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "C_8"
 		(shape bidirectional)
 		(at 241.3 36.195 0)
@@ -9330,6 +9754,28 @@
 		(uuid "f74640ca-e4a2-4518-ab91-0598904be0c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 218.5583 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RTS"
+		(shape input)
+		(at 81.28 106.045 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8d8f22f-8b6e-4e6f-a462-c953949c5907")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 111.8231 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12058,6 +12504,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 76.2 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66314f33-1fbc-4dac-9259-980f23798008")
+		(property "Reference" "#PWR032"
+			(at 72.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 79.375 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "064a0749-0bb1-4e88-81ad-de66bb70e7b8")
+		)
+		(instances
+			(project "ISO7816"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 24.765 90)
 		(unit 1)
@@ -14470,6 +14983,86 @@
 		)
 	)
 	(symbol
+		(lib_id "RevK:TC2030-Serial-NL")
+		(at 68.58 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a911ba72-4ea3-4f72-a2b7-f31366bf2539")
+		(property "Reference" "J8"
+			(at 68.58 18.7155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC2030-Serial-NL"
+			(at 68.58 21.1398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RevK:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 68.326 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TC2030-USB-NL"
+			(at 68.58 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3de4ad92-fcdf-4f09-bd95-3324e31c2b34")
+		)
+		(pin "3"
+			(uuid "fedaa74b-d92f-41f3-ad5f-9e239b0baf7a")
+		)
+		(pin "4"
+			(uuid "bed28c30-fc73-49c6-b4dc-451918ce478f")
+		)
+		(pin "1"
+			(uuid "6d012c04-ae82-4733-bf14-1d9711ba5b20")
+		)
+		(pin "5"
+			(uuid "049b8ad4-9afe-4481-870b-7715b06ae9c6")
+		)
+		(pin "6"
+			(uuid "06c9225b-8ac6-4fdc-9c8e-66edd9c74860")
+		)
+		(instances
+			(project ""
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 137.795 182.88 180)
 		(unit 1)
@@ -16128,6 +16721,73 @@
 			(project "ISO7816"
 				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f915f667-6bd6-4429-bcb4-7d7278a87c06")
+		(property "Reference" "#PWR015"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.375 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6698ce9-305b-4f87-b743-b9b7f865a590")
+		)
+		(instances
+			(project "ISO7816"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
